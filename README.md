@@ -72,6 +72,7 @@ CI (Continuous Integration) using Conda.
     - run Conda to create virtual environment, activate, and print out the
       dependency tree.
 - work on development and unit testing. 
+- Include a dependency, pipdeptree, it prints the dependency tree.
 
 That's it, dependencies takes the majority time during set up, and we do only 
 minimal work. Then we could concentrate on the real development.
