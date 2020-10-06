@@ -1,5 +1,7 @@
 ### Python Project Setup Template
 
+![Python Package using Conda](https://github.com/psilons/pypigeonhole-simple-utils/workflows/Python%20Package%20using%20Conda/badge.svg)
+![Test Coverage](coverage.svg)
 
 This is a project template for Python, and a workflow action for GitHub to run 
 CI (Continuous Integration).
@@ -71,3 +73,6 @@ Here are the suggestions:
 That's it, dependencies takes the majority time during set up, and we do only 
 minimal work. Then we could concentrate on the real development.
 Once we check code in, CI kicks off automatically.
+
+A side note: The unit test coverage is just for sample code, not for our glue
+code, bin\dep_setup_utils.py.
