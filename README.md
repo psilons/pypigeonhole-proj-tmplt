@@ -3,10 +3,10 @@
 ![Python Package using Conda](https://github.com/psilons/pypigeonhole-simple-utils/workflows/Python%20Package%20using%20Conda/badge.svg)
 ![Test Coverage](coverage.svg)
 
-This is a project template for Python, and a workflow action for GitHub to run 
-CI (Continuous Integration).
+This is a project template for Python, and a workflow for GitHub to run 
+CI (Continuous Integration) using Conda.
 
-Here are the reasons why we create this template:
+##### Here are the reasons why we create this template:
 
 - Python, by nature, could have some C/C++ library dependencies, such as numpy, 
   PyQt, etc. These C/C++ libs sometimes require compilation (and thus a 
@@ -34,7 +34,7 @@ Here are the reasons why we create this template:
 - Since half of the reusable code is in scripts, a template folder makes more
   sense than a library.
   
-Here are the improvements:
+##### Here are the improvements:
 
 - .github/workflows/python-package-conda.yaml: Most of the content comes from
   GitHub's action template (Python Package using Conda from Actions tab on the
@@ -48,6 +48,9 @@ Here are the improvements:
   project setup, unit tests, clean up & build. The Python script here should be
   moved to the lower level with modification. It's the clue code used by 
   dep_setup.py.
+- IDE folder has IntelliJ setup, it needs the Python plugin. You may switch
+  to Pycharm with your own setup. With this setup, the unit testing is very
+  convenient.
 - src/test names are borrow from Java Maven. Just labels. If you change them,
   then you have to go through all the code here to make additional changes.
   In order to run test at the project root folder, we add a src reference in
@@ -62,7 +65,7 @@ Here are the improvements:
 - setup.py has the hook in required sections. No dependency changes will touch
   this file.
   
-Here are the suggestions:
+##### Here are the suggestions:
 - Add dependencies in dep_setup.py. This is the main driver.
 - run bin/project_setup, it does the following:
     - create Conda environment.yaml
