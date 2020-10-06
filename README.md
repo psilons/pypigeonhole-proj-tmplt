@@ -48,6 +48,9 @@ Here are the improvements:
   dep_setup.py.
 - src/test names are borrow from Java Maven. Just labels. If you change them,
   then you have to go through all the code here to make additional changes.
+  In order to run test at the project root folder, we add a src reference in
+  the __init__.py under test top package. Otherwise, tests can run only from
+  the src folder.
 - dep_setup.py is where we specify dependencies with complete information, such
   as name, version, scope, installer(PIP or Conda), etc. Here we take a 
   shortcut, mixing PIP and Conda. These should be separated in the future.
@@ -63,7 +66,8 @@ Here are the suggestions:
     - create Conda environment.yaml
     - run Conda to create virtual environment, activate, and print out the
       dependency tree.
-- work on development and unit testing.
-- Optionally for GitHub only, create workflow in the Actions tab.    
+- work on development and unit testing. 
 
-That's it, dependencies takes the majority time, and we do only minimal work.
+That's it, dependencies takes the majority time during set up, and we do only 
+minimal work. Then we could concentrate on the real development.
+Once we check code in, CI kicks off automatically.
