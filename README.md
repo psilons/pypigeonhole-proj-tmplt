@@ -77,5 +77,9 @@ That's it, dependencies takes the majority time during set up, and we do only
 minimal work. Then we could concentrate on the real development.
 Once we check code in, CI kicks off automatically.
 
-A side note: The unit test coverage is just for sample code, not for our glue
-code, bin\dep_setup_utils.py.
+##### Side Notes 
+- The unit test coverage is just for sample code, not for our glue code, 
+  bin\dep_setup_utils.py. The testing for glue code is done by local and CI.
+- During CI, we check the svg file back to GIT, so that the above percentage
+  shows up. This requires every checkin to re-pull. This is a hack until GitHub
+  has a better solution. (I can host a Jenkins for that too.)
