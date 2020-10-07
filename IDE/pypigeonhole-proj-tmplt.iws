@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5eede19-f1f6-440b-9bea-069ac895ab4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dbin/app_pack.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dbin/proj_setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dbin/unittest.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LICENSE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.github/workflows/python-package-conda.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/python-package-conda.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypigeonhole-proj-tmplt.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-proj-tmplt.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/build.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/cleanup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/cleanup.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/cleanup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/dep_setup_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/dep_setup_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/proj_setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/proj_setup.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/proj_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/app_pack.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/unittest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/unittest.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/unittest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/app_start.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbin/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/build.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbin/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbin/cleanup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/cleanup.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbin/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/cleanup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbin/dep_setup_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbin/proj_setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/proj_setup.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbin/proj_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/proj_setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbin/unittest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/unittest.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbin/unittest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/unittest.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dep_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +53,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dbin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19703704" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\dbin" />
       <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt" />
+      <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\.github\workflows" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\dbin" />
@@ -133,7 +135,7 @@
       <updated>1601959758216</updated>
       <workItem from="1601959759358" duration="7185000" />
       <workItem from="1601966970432" duration="1356000" />
-      <workItem from="1602025467618" duration="7338000" />
+      <workItem from="1602025467618" duration="14171000" />
     </task>
     <servers />
   </component>
@@ -141,11 +143,19 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="150" key="#Project_Structure" timestamp="1601966080281">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="2583" y="150" key="#Project_Structure" timestamp="1602054558661">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="488" y="150" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601966080281" />
-    <state x="2583" y="150" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601960182117" />
+    <state x="2583" y="150" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602054558661" />
+    <state x="265" y="190" width="1549" height="800" key="DiffContextDialog" timestamp="1602045067445">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="265" y="190" width="1549" height="800" key="DiffContextDialog/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602045067445" />
+    <state x="2882" y="330" key="FileChooserDialogImpl" timestamp="1602054537311">
+      <screen x="2110" y="0" width="1986" height="1152" />
+    </state>
+    <state x="2882" y="330" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602054537311" />
     <state width="1689" height="311" key="GridCell.Tab.0.bottom" timestamp="1601966953699">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>

@@ -5,7 +5,7 @@ CD %BatchDir%..
 IF NOT EXIST dep_setup.py (
     ECHO Please create dep_setup.py in project root first!
     CD %WorkDir%
-    EXIT 1
+    EXIT /B 1
 )
 
 python dep_setup.py
@@ -28,7 +28,7 @@ CALL conda activate %new_env%
 REM print dependency tree
 pipdeptree
 
-EXIT 0
+EXIT /B 0
 
 :retry1
 REM check whether we are in the env that we want to delete

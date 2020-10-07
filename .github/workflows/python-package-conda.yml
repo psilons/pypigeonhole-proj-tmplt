@@ -28,6 +28,8 @@ jobs:
     - name: Unit Tests
       id: unit-tests
       run: |
+        pwd
+        ls -ltr
         conda info
         conda list
         which conda
@@ -38,9 +40,7 @@ jobs:
 
         rm -rf coverage.svg
         conda run coverage-badge -o coverage.svg
-        pwd
-        ls -ltr
-# This is a temporary solution to save badge
+    # This is a temporary solution to save badge
     - name: Commit badge
       run: |
         git config --local user.email "action@github.com"

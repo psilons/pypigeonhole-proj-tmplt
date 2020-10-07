@@ -1,11 +1,12 @@
-name: py385_t1
+name: py385_pt
 
 channels:
     - defaults
 
 dependencies:
-    - python==3.8.5
+    - python>=3.5
     - coverage==5.3
     - pip:
+        - pypigeonhole-build
         - pipdeptree
         - coverage-badge
