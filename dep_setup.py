@@ -18,6 +18,7 @@ dependent_libs = [
     Dependency(name='coverage', version='==5.3', installer=CONDA, desc='test coverage'),  # DEV
     Dependency(name='pipdeptree'),  # latest version, DEV, PIP. Conda does not have these 2
     Dependency(name='coverage-badge', scope=DEV, installer=PIP),  # generate coverage github badge
+    Dependency(name='twine'),  # uploading to pypi
 ]
 
 install_required = pip_dep_utils.get_install_required(dependent_libs)

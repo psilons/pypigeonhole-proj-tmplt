@@ -1,12 +1,19 @@
 from setuptools import setup, find_packages
+import pathlib
 
 import dep_setup
+
+HERE = pathlib.Path(__file__).parent
+README = (HERE / "README.md").read_text()
 
 # If this is needed during dev by others, cd this folder and run pip install -e .
 setup(name='your fancy name here',
       version='0.1.0',  # major.minor.patch
       description='your description here',
       url='repo url for source code',
+      long_description=README,
+      long_description_content_type="text/markdown",
+      license="MIT",
 
       author='nice name',
       author_email='your email here',
