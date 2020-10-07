@@ -1,7 +1,7 @@
 import sys
 
-from bin.dep_setup_utils import CONDA, Dependency, INSTALL
-from bin import dep_setup_utils
+from dbin.dep_setup_utils import CONDA, Dependency, INSTALL
+from dbin import dep_setup_utils
 
 CONDA.env = 'py385_t1'  # change to your environment name
 CONDA.channels = ['defaults']  # update channels, if needed.

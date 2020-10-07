@@ -23,7 +23,7 @@ if "%cerr%" == "1" (
     GOTO retry1
 )
 
-CALL conda activate %env_name%
+CALL conda activate %new_env%
 
 REM print dependency tree
 pipdeptree

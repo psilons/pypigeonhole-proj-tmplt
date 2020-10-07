@@ -40,6 +40,7 @@ jobs:
         conda run coverage-badge -o coverage.svg
         pwd
         ls -ltr
+# This is a temporary solution to save badge
     - name: Commit badge
       run: |
         git config --local user.email "action@github.com"
@@ -50,9 +51,6 @@ jobs:
       shell: bash
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
       id: extract_branch
-#    - uses: actions/checkout@v1
-#      with:
-#        ref: ${{ steps.extract_branch.outputs.branch }}
     - name: Push badge commit
       uses: ad-m/github-push-action@master
       with:
