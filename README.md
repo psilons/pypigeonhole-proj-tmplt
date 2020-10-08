@@ -20,10 +20,10 @@ CI (Continuous Integration) using Conda.
 - Dependent libraries are stored in setup.py, or requirements.txt for PIP, or 
   Anaconda's environment.yaml. Besides version information, we need to know
   whether a library is a real dependency or just needed for dev/testing. 
-  setup.py has install_requires and test_require, but Anaconda and 
+  setup.py has install_requires and test_require, but environment.yaml and 
   requirements.txt miss it. So we need to fill the gap here. This is done 
   by the underlying library, pypigeonhole-build. Furthermore, we only need to
-  specify dependencies once(in dep_setup.py), not in all 3 locations.
+  specify dependencies once(in dep_setup.py), not in several locations.
 - We separate source files and test files into 2 folders next to each other,
   rather than one inside another. It's just cleaner. We make sure this setup
   works well with IDE setup and unit tests (don't count test file in coverage).
@@ -55,19 +55,21 @@ CI (Continuous Integration) using Conda.
   as name, version, scope, installer(PIP or Conda), etc. setup.py has hooks in 
   dependency required sections. No dependency changes will touch this file.
   Check pypigeonhole-build docs for more details.
-- environment.yaml is generated from proj_setup script. This is used by CI. So
+- environment.yaml is generated from py_dev_env_setup script. This is used by CI. So
   we have to run the script once and check in to GIT. Whenever we change 
   dependencies, we need to run the script and check it in.
   
 #### Here are the suggestions:
+** *nix shell scripts are not fully tested! **
+
 For development:
 
-All scripts in dbin and .github are reusable, unlikely need to change.
-Dependencies are isolated in dep_setup.py.
+All scripts in dbin, bbin and .github are reusable, unlikely need to change
+along with projects. dep_setup.py controls dependencies and version.
 
 - pip install ```pip install pypigeonhole-build```
-- Add dependencies in dep_setup.py. This is the main driver.
-- run dbin/project_setup, it does the following:
+- Add dependencies and set version in dep_setup.py. This is the main driver.
+- run dbin/py_dev_env_setup, it does the following:
     - create Conda environment.yaml, need to check this for CI
     - run Conda to create virtual environment, activate, and print out the
       dependency tree. Whenever there is a change in dep_setup.py, rerun
@@ -91,15 +93,17 @@ Standard SDLC steps are:
 - upload: such as PyPI, Artifactory, Nexus, etc. A lot of variations here.
 - deploy: such as kubernetes, Ansible, etc. A lot of variations here.
 
-So we tackle the simple case in packaging, other steps vary quite a bit:
+So we tackle the reusable steps, application packaging and release, other 
+steps vary quite a bit. In our case, upload is simple too.
 
-|         | library  | application  |
-|---------|----------|--------------|
-| compile | separate | separate     |
-| package | setup.py | *pack_app*   |
-| release | release  | release      |
-| upload  | upload   | upload       |
-| deploy  |          | deploy       |
+|         | library   | application  |
+|---------|-----------|--------------|
+| compile | separate  | separate     |
+| package | setup.py  | *pack_app*   |
+| release | *release* | *release*    |
+| upload  | *upload*  | upload       |
+| deploy  | N/A       | deploy       |
+
 
 #### Side Notes 
 

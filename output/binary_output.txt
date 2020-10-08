@@ -1,1 +1,2 @@
-Binary output, such as PyInstaller build
+Binary output, such as PyInstaller build.
+Modify the pack_app script to include this folder instead of src

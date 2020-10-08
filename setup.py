@@ -7,8 +7,9 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 # If this is needed during dev by others, cd this folder and run pip install -e .
+# This is reusable in normal cases.
 setup(name='your fancy name here',
-      version='0.1.0',  # major.minor.patch
+      version=dep_setup.app_version,
       description='your description here',
       url='repo url for source code',
       long_description=README,
@@ -21,7 +22,7 @@ setup(name='your fancy name here',
       package_dir={'': 'src'},
       packages=find_packages("src", exclude=["test"]),
 
-      python_requires='>=3',
+      python_requires=dep_setup.python_requires if dep_setup.python_requires else '>=3',
 
       install_requires=dep_setup.install_required,
 

@@ -5,8 +5,10 @@ channels:
 
 dependencies:
     - python>=3.5
+    - pip
     - coverage==5.3
     - pip:
         - pypigeonhole-build
         - pipdeptree
         - coverage-badge
+        - twine
