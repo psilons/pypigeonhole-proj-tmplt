@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5eede19-f1f6-440b-9bea-069ac895ab4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/pypigeonhole-proj-tmplt.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-proj-tmplt.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbin/release.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/release.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dbin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19703704" />
   </component>
@@ -127,7 +128,7 @@
       <workItem from="1602025467618" duration="21120000" />
       <workItem from="1602094046451" duration="3659000" />
       <workItem from="1602099699141" duration="970000" />
-      <workItem from="1602100681525" duration="17443000" />
+      <workItem from="1602100681525" duration="18343000" />
     </task>
     <servers />
   </component>
@@ -135,11 +136,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2583" y="150" key="#Project_Structure" timestamp="1602108466388">
+    <state x="2583" y="150" key="#Project_Structure" timestamp="1602163831374">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="488" y="150" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601966080281" />
-    <state x="2583" y="150" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602108466388" />
+    <state x="2583" y="150" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602163831374" />
     <state x="848" y="365" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602091357838">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
