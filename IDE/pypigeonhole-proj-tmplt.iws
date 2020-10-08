@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5eede19-f1f6-440b-9bea-069ac895ab4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bbin/release.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypigeonhole-proj-tmplt.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-proj-tmplt.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbin/pack_lib.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/pack_lib.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbin/upload.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/upload.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbin/upload_test.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/upload_test.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/app_start.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/app_start.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conf/app_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../conf/app_config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dbin/proj_setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/py_dev_env_setup.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dbin/proj_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dbin/py_dev_env_setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dep_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../output/binary_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../output/binary_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbin/release.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/release.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +127,7 @@
       <workItem from="1602025467618" duration="21120000" />
       <workItem from="1602094046451" duration="3659000" />
       <workItem from="1602099699141" duration="970000" />
-      <workItem from="1602100681525" duration="15356000" />
+      <workItem from="1602100681525" duration="17443000" />
     </task>
     <servers />
   </component>
