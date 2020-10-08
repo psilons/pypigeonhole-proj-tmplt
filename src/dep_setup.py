@@ -6,9 +6,11 @@ from pypigeonhole_build.pip_dep_utils import INSTALL, DEV, PIP, Dependency
 import pypigeonhole_build.conda_dep_utils as conda_dep_utils
 from pypigeonhole_build.conda_dep_utils import CONDA
 
+# release script is looking for this pattern: app_version =
+# so don't use this pattern else where.
 app_version = "0.0.3"
 
-CONDA.env = 'py385_pt'  # change to your environment name
+CONDA.env = 'py39_tpl'  # change to your environment name
 CONDA.channels = ['defaults']  # update channels, if needed.
 
 dependent_libs = [
@@ -37,8 +39,10 @@ if __name__ == "__main__":
     if sys.argv[1] == 'pip':
         pip_dep_utils.gen_req_txt(dependent_libs, './requirements.txt')
     elif sys.argv[1] == 'conda':
-        conda_dep_utils.gen_conda_yaml(dependent_libs, './environment.yaml')
+        conda_dep_utils.gen_conda_yaml(dependent_libs, '../environment.yaml')
     elif sys.argv[1] == 'conda_env':
         print(CONDA.env)
+    elif sys.argv[1] == 'app_env':
+        print(app_version)
     else:
         raise ValueError(f'unknown parameter {sys.argv[1]}')

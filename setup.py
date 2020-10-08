@@ -20,7 +20,8 @@ setup(name='your fancy name here',
       author_email='your email here',
 
       package_dir={'': 'src'},
-      packages=find_packages("src", exclude=["test"]),
+      # setup complains last ".", but it works to include top des_setup.py
+      packages=find_packages("src", exclude=["test"]) + ['.'],
 
       python_requires=dep_setup.python_requires if dep_setup.python_requires else '>=3',
 
