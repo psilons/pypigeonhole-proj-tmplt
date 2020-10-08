@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5eede19-f1f6-440b-9bea-069ac895ab4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/pypigeonhole-proj-tmplt.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-proj-tmplt.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbin/release.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/release.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +127,7 @@
       <workItem from="1602025467618" duration="21120000" />
       <workItem from="1602094046451" duration="3659000" />
       <workItem from="1602099699141" duration="970000" />
-      <workItem from="1602100681525" duration="18343000" />
+      <workItem from="1602100681525" duration="19473000" />
     </task>
     <servers />
   </component>
