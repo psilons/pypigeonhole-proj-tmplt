@@ -91,7 +91,7 @@ Standard SDLC steps are:
   certain folders, bin, conf, src or output from builds.
 - release: tag version in GIT. It's manual now (web interface).
 - upload: such as PyPI, Artifactory, Nexus, etc. A lot of variations here.
-- deploy: such as kubernetes, Ansible, etc. A lot of variations here.
+- deploy: such as manual kubernetes, Ansible, etc. A lot of variations here.
 
 So we tackle the reusable steps, application packaging and release, other 
 steps vary quite a bit. In our case, upload is simple too.

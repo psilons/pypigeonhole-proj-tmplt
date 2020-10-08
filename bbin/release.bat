@@ -11,14 +11,17 @@ echo app version: %app_version%
 
 REM git tag -a %app_version% -n "release: tag version %app_version%"
 
+REM git pull
 REM git push --tags
 
 REM bump_version1 keeps single digit on minor and patch, xx.x.x
 FOR /F %%I IN ('python -c "import pypigeonhole_build.file_edit_utils as fu; print(fu.bump_version1(""%app_version%"", ""dep_setup.py""))"') DO SET new_version=%%I
 echo new version: %new_version%
 
+REM git add "dep_setup.py
 REM git commit -m "release: bump version %app_version% up to %new_version%"
 
+REM git pull
 REM git push
 
 cd %WorkDir%
