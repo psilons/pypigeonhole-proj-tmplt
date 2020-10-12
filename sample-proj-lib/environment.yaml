@@ -1,0 +1,19 @@
+name: py390_sample_proj_lib
+
+channels:
+    - defaults
+    - psilons
+
+dependencies:
+    - pypigeonhole-build
+    - python>=3.6
+    - pip
+    - coverage==5.3
+    - conda-build
+    - conda-verify
+    - anaconda-client
+    - pip:
+        - psutil
+        - pipdeptree
+        - coverage-badge
+        - twine
