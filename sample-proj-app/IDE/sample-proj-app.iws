@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bin/run_this.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/run_this.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JupyterTrust" id="0f2245f7-2e08-4298-a8a0-4eee9328be5b" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Wonderland\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.6397.94\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iiwNeCE4uzfj0gZ2eNoJhLAs2X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.19703704" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.sample_feature">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sample_feature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sample-proj-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\0dev\Anaconda3\envs\py390_spa\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/sample_proj_app/sample_feature.py" />
+      <option name="PARAMETERS" value="conf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unittests in test_sample_proj_app" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="sample-proj-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/test_sample_proj_app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../test/test_sample_proj_app&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.sample_feature" />
+      <item itemvalue="Python tests.Unittests in test_sample_proj_app" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sample_feature" />
+        <item itemvalue="Python tests.Unittests in test_sample_proj_app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="" />
+      <created>1602403683383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602403683383</updated>
+      <workItem from="1602403684501" duration="13185000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="619" y="166" key="#Project_Structure" timestamp="1602403792433">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="619" y="166" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602403792433" />
+    <state x="713" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602405909315">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="713" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602405909315" />
+    <state x="918" y="366" key="FileChooserDialogImpl" timestamp="1602405889273">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="918" y="366" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602405889273" />
+    <state width="1689" height="258" key="GridCell.Tab.0.bottom" timestamp="1602407352617">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="258" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602407352617" />
+    <state width="1689" height="258" key="GridCell.Tab.0.center" timestamp="1602407352616">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="258" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602407352616" />
+    <state width="1689" height="258" key="GridCell.Tab.0.left" timestamp="1602407352616">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="258" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602407352616" />
+    <state width="1689" height="258" key="GridCell.Tab.0.right" timestamp="1602407352616">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="258" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602407352616" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1602444361856">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602444361856" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sample_proj_app$sample_feature.coverage" NAME="sample_feature Coverage Results" MODIFIED="1602405911668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/sample_proj_app$Unittests_in_test_sample_proj_app.coverage" NAME="Unittests in test_sample_proj_app Coverage Results" MODIFIED="1602403865599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_sample_proj_app" />
+  </component>
+</project>

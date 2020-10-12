@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/bld.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/meta.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/sample_proj_lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/sample_proj_lib/dep_setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/sample_proj_lib/sample_feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test_sample_proj_lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test_sample_proj_lib/test_sample_feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/cleanup.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/cleanup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/pack_app.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/pack_app.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/pack_lib.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/pack_lib.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/release.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/upload.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/upload.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/upload_test.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bbin/upload_test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbin/py_dev_env_setup.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbin/py_dev_env_setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbin/unittest.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dbin/unittest.sh" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JupyterTrust" id="0f2245f7-2e08-4298-a8a0-4eee9328be5b" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Wonderland\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.6397.94\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ihwSoWfqKr5ZrepQQCttTjDXS7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bbin" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.19703704" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-lib\bbin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_sample_proj_lib">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sample_feature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sample-proj-lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/sample_proj_lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/sample_proj_lib/sample_feature.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unittests for test_sample_feature.TestSampleFeature.test_scan_cpu" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="sample-proj-lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/test_sample_proj_lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sample_feature.TestSampleFeature.test_scan_cpu&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="sample-proj-lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_sample_feature.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="sample-proj-lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/test_sample_proj_lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../test/test_sample_proj_lib/test_sample_feature.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_sample_proj_lib" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="sample-proj-lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/test_sample_proj_lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../test/test_sample_proj_lib&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_sample_proj_lib" />
+        <item itemvalue="Python tests.Unittests in test_sample_feature.py" />
+        <item itemvalue="Python tests.Unittests in test" />
+        <item itemvalue="Python tests.Unittests for test_sample_feature.TestSampleFeature.test_scan_cpu" />
+        <item itemvalue="Python.sample_feature" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="" />
+      <created>1602373134530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602373134530</updated>
+      <workItem from="1602373135635" duration="18295000" />
+      <workItem from="1602400916364" duration="1054000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="503" y="172" key="#Project_Structure" timestamp="1602385966215">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="503" y="172" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602385966215" />
+    <state x="766" y="342" key="FileChooserDialogImpl" timestamp="1602378667778">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="766" y="342" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602378667778" />
+    <state width="1689" height="225" key="GridCell.Tab.0.bottom" timestamp="1602400903337">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="225" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
+    <state width="1689" height="225" key="GridCell.Tab.0.center" timestamp="1602400903337">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="225" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
+    <state width="1689" height="225" key="GridCell.Tab.0.left" timestamp="1602400903337">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="225" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
+    <state width="1689" height="225" key="GridCell.Tab.0.right" timestamp="1602400903337">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="225" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sample_proj_lib$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1602385175423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/sample_proj_lib$Unittests_in_test_sample_proj_lib.coverage" NAME="Unittests in test_sample_proj_lib Coverage Results" MODIFIED="1602385237730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_sample_proj_lib" />
+    <SUITE FILE_PATH="coverage/sample_proj_lib$Unittests_for_test_sample_feature_TestSampleFeature_test_scan_cpu.coverage" NAME="Unittests for test_sample_feature.TestSampleFeature.test_scan_cpu Coverage Results" MODIFIED="1602379811098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_sample_proj_lib" />
+    <SUITE FILE_PATH="coverage/sample_proj_lib$sample_feature.coverage" NAME="sample_feature Coverage Results" MODIFIED="1602379549688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/sample_proj_lib" />
+    <SUITE FILE_PATH="coverage/sample_proj_lib$Unittests_in_test_sample_feature_py.coverage" NAME="Unittests in test_sample_feature.py Coverage Results" MODIFIED="1602385211451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_sample_proj_lib" />
+  </component>
+</project>

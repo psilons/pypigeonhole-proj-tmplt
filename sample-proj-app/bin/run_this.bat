@@ -5,4 +5,5 @@ IF NOT EXIST setup.py (
 )
 echo Project Folder: %ProjDir%
 
+REM conda flattens the folder structure so this file and settings.txt are in same folder.
 python -m sample_proj_app.sample_feature %ProjDir%
