@@ -1,0 +1,34 @@
+# https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html
+# https://docs.conda.io/projects/conda-build/en/latest/index.html
+{% set data = load_setup_py_data() %}
+{% set name = data.get('name') %}
+{% set version = data.get('version')  %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  path: ../..  # back to the project folder.
+
+build:
+  number: 0
+  noarch: python  # means this is python module, can run anywhere.
+
+requirements:
+  host:
+    - pip
+    - python
+    - pypigeonhole-build # need this during runtime testing, check this in installation.
+  run:
+    - python
+
+test:
+  imports:
+    - sample_proj_lib  # top package name
+
+about:
+  home: https://github.com/psilons/pypigeonhole-proj-tmplt
+  license: MIT
+  license_family: MIT
+  summary: a sample for pypigeonhole-build to build a reusable lib
