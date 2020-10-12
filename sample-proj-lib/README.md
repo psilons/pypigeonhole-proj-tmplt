@@ -30,8 +30,8 @@ Now follow these steps:
 Now let's open a command window, and go to the project folder. Or in an 
 existing window, deactivate conda environment and then run 
 ```pph_dev_env_setup 2>&1 | tee a.log```, 
-to create the conda environment with the name ```py390_spl``` specified in 
-the dep_setup.py.
+to create the conda environment with the name ```py390_sample_proj_lib``` 
+specified in the dep_setup.py.
 
 This step also creates requirements.txt and environment.yaml. After it's down,
 we should be in the conda environment already. run ```conda info --envs``` to
@@ -53,7 +53,8 @@ Now activate the new environment and run ```pph_unittest```,
 this generates .coverage and a badge coverage.svg.
 
 In the project folder, ```pip install -e .``` creates a soft link in the
-python environment.
+python environment, if needed.
+
 
 ## Package
 
@@ -83,6 +84,7 @@ Make sure conda is clean after build. conda-build corrupts conda environments,
 and so run it outside.
 
 ```conda info --envs```
+
 
 ## Upload and Testing   
 

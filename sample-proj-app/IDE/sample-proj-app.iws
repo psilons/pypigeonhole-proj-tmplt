@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../bin/run_this.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/run_this.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/app_start.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../conf/app_config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../coverage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../environment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../output/binary_output.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/dep_setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/global_unique_name_package/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/global_unique_name_package/dummy_src.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test_global_unique_name_package/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test_global_unique_name_package/test_dummy_src.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602403683383</updated>
-      <workItem from="1602403684501" duration="13185000" />
+      <workItem from="1602403684501" duration="13574000" />
     </task>
     <servers />
   </component>

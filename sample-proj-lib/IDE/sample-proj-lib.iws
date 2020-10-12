@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="" />
+    <list default="true" id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/app_start.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../conf/app_config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../coverage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../environment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../output/binary_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/dep_setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/global_unique_name_package/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/global_unique_name_package/dummy_src.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test_global_unique_name_package/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test_global_unique_name_package/test_dummy_src.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +58,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bbin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3" />
   </component>
@@ -183,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602373134530</updated>
       <workItem from="1602373135635" duration="18295000" />
-      <workItem from="1602400916364" duration="25261000" />
+      <workItem from="1602400916364" duration="27856000" />
     </task>
     <servers />
   </component>
@@ -191,11 +209,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2598" y="172" width="1248" height="851" key="#Project_Structure" timestamp="1602480086872">
+    <state x="2598" y="172" width="1248" height="851" key="#Project_Structure" timestamp="1602482581377">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="503" y="172" width="1248" height="851" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602478146121" />
-    <state x="2598" y="172" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602480086872" />
+    <state x="2598" y="172" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602482581377" />
     <state x="766" y="342" key="FileChooserDialogImpl" timestamp="1602478144492">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
