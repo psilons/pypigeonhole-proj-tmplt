@@ -7,10 +7,7 @@ from pypigeonhole_build.dependency import Dependency, INSTALL, DEV, PIP
 import pypigeonhole_build.conda_translator as conda_translator
 from pypigeonhole_build.conda_translator import CONDA
 
-# assume this file's folder is the top package
-curr_dir = os.path.dirname(os.path.realpath(__file__))
-top_pkg = os.path.basename(curr_dir)  # part of environment name
-app_name = top_pkg.replace('_', '-')  # needed by setup.py
+import sample_proj_app.app_setup as app_setup
 
 # ##############################################################################
 # These are application specific information
@@ -22,7 +19,7 @@ python_version = 'py390'  # take 3 digits, major, minor, patch
 # so don't use this pattern else where. we should have 2 assignment anyway.
 app_version = "0.1.0"
 
-CONDA.env = python_version + '_' + top_pkg
+CONDA.env = python_version + '_' + app_setup.get_top_pkg()
 CONDA.channels = ['defaults', 'psilons']  # update channels, if needed.
 
 dependent_libs = [
@@ -51,7 +48,7 @@ install_required = pip_translator.get_install_required(dependent_libs)
 
 test_required = pip_translator.get_test_required(dependent_libs)
 
-python_requires = pip_translator.get_python_requires(dependent_libs)
+python_required = pip_translator.get_python_requires(dependent_libs)
 
 # we can't abstract this out since it knows pip and conda, maybe more later on.
 if __name__ == "__main__":
@@ -61,7 +58,7 @@ if __name__ == "__main__":
     if sys.argv[1] == 'pip':
         pip_translator.gen_req_txt(dependent_libs, 'requirements.txt')
     elif sys.argv[1] == 'conda':
-        conda_translator.gen_conda_yaml(dependent_libs, 'environment.yaml')
+        conda_translator.gen_conda_yaml(dependent_libs, 'environment.yml')
     elif sys.argv[1] == 'conda_env':
         print(CONDA.env)
     else:

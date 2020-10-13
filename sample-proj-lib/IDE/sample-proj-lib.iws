@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/app_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/dep_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../coverage.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/sample_proj_lib/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_lib/dep_setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +194,8 @@
       <workItem from="1602373135635" duration="18295000" />
       <workItem from="1602400916364" duration="28233000" />
       <workItem from="1602541870295" duration="652000" />
-      <workItem from="1602556558117" duration="1069000" />
+      <workItem from="1602556558117" duration="1531000" />
+      <workItem from="1602560297762" duration="85000" />
     </task>
     <servers />
   </component>
