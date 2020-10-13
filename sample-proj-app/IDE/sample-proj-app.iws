@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/sample_proj_app/app_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-app.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/sample_proj_app/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_app/dep_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/dep_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +141,7 @@
       <updated>1602403683383</updated>
       <workItem from="1602403684501" duration="14479000" />
       <workItem from="1602541881883" duration="2146000" />
-      <workItem from="1602561140338" duration="163000" />
+      <workItem from="1602561140338" duration="3532000" />
     </task>
     <servers />
   </component>
