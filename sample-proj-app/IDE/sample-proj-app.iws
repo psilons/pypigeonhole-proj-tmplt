@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.ipr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iws" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bin/app_start.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../conf/app_config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../coverage.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../environment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/binary_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-app.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/dep_setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/global_unique_name_package/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/global_unique_name_package/dummy_src.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../test/test_global_unique_name_package/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../test/test_global_unique_name_package/test_dummy_src.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/coverage.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/dep_setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +138,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602403683383</updated>
-      <workItem from="1602403684501" duration="13574000" />
+      <workItem from="1602403684501" duration="14479000" />
+      <workItem from="1602541881883" duration="1899000" />
     </task>
     <servers />
   </component>
@@ -169,22 +159,22 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="918" y="366" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602405889273" />
-    <state width="1689" height="258" key="GridCell.Tab.0.bottom" timestamp="1602407352617">
+    <state width="1689" height="258" key="GridCell.Tab.0.bottom" timestamp="1602486254498">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="258" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602407352617" />
-    <state width="1689" height="258" key="GridCell.Tab.0.center" timestamp="1602407352616">
+    <state width="1689" height="258" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602486254498" />
+    <state width="1689" height="258" key="GridCell.Tab.0.center" timestamp="1602486254498">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="258" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602407352616" />
-    <state width="1689" height="258" key="GridCell.Tab.0.left" timestamp="1602407352616">
+    <state width="1689" height="258" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602486254498" />
+    <state width="1689" height="258" key="GridCell.Tab.0.left" timestamp="1602486254498">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="258" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602407352616" />
-    <state width="1689" height="258" key="GridCell.Tab.0.right" timestamp="1602407352616">
+    <state width="1689" height="258" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602486254498" />
+    <state width="1689" height="258" key="GridCell.Tab.0.right" timestamp="1602486254498">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="258" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602407352616" />
+    <state width="1689" height="258" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602486254498" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1602444361856">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>

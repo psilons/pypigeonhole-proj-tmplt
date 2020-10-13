@@ -8,15 +8,16 @@ from os.path import dirname
 src_path = os.path.join(dirname(__file__), 'src')
 sys.path.append(src_path)
 
-from sample_proj_lib import dep_setup
-
 HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
+from sample_proj_lib import app_setup
+from sample_proj_lib import dep_setup
+
 # If this is needed during dev by others, cd this folder and run pip install -e .
 # This is reusable in normal cases.
-setup(name=dep_setup.app_name,  # 'sample-proj-lib',
-      version=dep_setup.app_version,  # major.minor.patch
+setup(name=app_setup.get_app_name(),  # 'sample-proj-lib',
+      version=app_setup.get_app_version(),  # major.minor.patch
       description='Python build sample project for libs',
       url='https://github.com/psilons/pypigeonhole-proj-tmplt.git',
 
@@ -30,7 +31,7 @@ setup(name=dep_setup.app_name,  # 'sample-proj-lib',
       package_dir={'': 'src'},
       packages=find_packages("src", exclude=["test"]),
 
-      python_requires=dep_setup.python_requires if dep_setup.python_requires else '>=3',
+      python_requires=dep_setup.python_required if dep_setup.python_required else '>=3',
 
       install_requires=dep_setup.install_required,
 

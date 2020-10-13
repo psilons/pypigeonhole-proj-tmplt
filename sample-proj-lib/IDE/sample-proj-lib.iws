@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.ipr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IDE/pypigeonhole-proj-tmplt.iws" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bin/app_start.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../conf/app_config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../coverage.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../environment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../output/binary_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-proj-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/dep_setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/global_unique_name_package/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/global_unique_name_package/dummy_src.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../test/test_global_unique_name_package/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../test/test_global_unique_name_package/test_dummy_src.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../coverage.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/sample_proj_lib/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_lib/dep_setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bbin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../src/sample_proj_lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -64,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-lib\src\sample_proj_lib" />
       <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-lib\bbin" />
     </key>
   </component>
@@ -201,7 +191,9 @@
       <option name="presentableId" value="Default" />
       <updated>1602373134530</updated>
       <workItem from="1602373135635" duration="18295000" />
-      <workItem from="1602400916364" duration="27856000" />
+      <workItem from="1602400916364" duration="28233000" />
+      <workItem from="1602541870295" duration="652000" />
+      <workItem from="1602556558117" duration="1069000" />
     </task>
     <servers />
   </component>
@@ -218,42 +210,42 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="766" y="342" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602478144492" />
-    <state width="1689" height="319" key="GridCell.Tab.0.bottom" timestamp="1602481493098">
+    <state width="1689" height="125" key="GridCell.Tab.0.bottom" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state width="1689" height="225" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
-    <state width="1689" height="319" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602481493098" />
-    <state width="1689" height="319" key="GridCell.Tab.0.center" timestamp="1602481493097">
+    <state width="1689" height="125" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
+    <state width="1689" height="125" key="GridCell.Tab.0.center" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state width="1689" height="225" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
-    <state width="1689" height="319" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602481493097" />
-    <state width="1689" height="319" key="GridCell.Tab.0.left" timestamp="1602481493097">
+    <state width="1689" height="125" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
+    <state width="1689" height="125" key="GridCell.Tab.0.left" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state width="1689" height="225" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
-    <state width="1689" height="319" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602481493097" />
-    <state width="1689" height="319" key="GridCell.Tab.0.right" timestamp="1602481493098">
+    <state width="1689" height="125" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
+    <state width="1689" height="125" key="GridCell.Tab.0.right" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state width="1689" height="225" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
-    <state width="1689" height="319" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602481493098" />
-    <state width="1689" height="319" key="GridCell.Tab.1.bottom" timestamp="1602481493930">
+    <state width="1689" height="125" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
+    <state width="1689" height="125" key="GridCell.Tab.1.bottom" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
-    <state width="1689" height="319" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602481493930" />
-    <state width="1689" height="319" key="GridCell.Tab.1.center" timestamp="1602481493930">
+    <state width="1689" height="125" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
+    <state width="1689" height="125" key="GridCell.Tab.1.center" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
-    <state width="1689" height="319" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602481493930" />
-    <state width="1689" height="319" key="GridCell.Tab.1.left" timestamp="1602481493930">
+    <state width="1689" height="125" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
+    <state width="1689" height="125" key="GridCell.Tab.1.left" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
-    <state width="1689" height="319" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602481493930" />
-    <state width="1689" height="319" key="GridCell.Tab.1.right" timestamp="1602481493930">
+    <state width="1689" height="125" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
+    <state width="1689" height="125" key="GridCell.Tab.1.right" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
-    <state width="1689" height="319" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602481493930" />
+    <state width="1689" height="125" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
     <state x="356" y="238" width="1549" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602402589385">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
