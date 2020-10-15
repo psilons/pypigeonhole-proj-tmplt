@@ -34,3 +34,7 @@ before installing it again.
 Run ```pph_pack_app_zip.bat```, the output is in dist_zip. By default, it
 zips bin, conf, and dist folders.
 
+
+## License
+
+Free Fire icon is from https://www.flaticon.com/free-icon/fire_1843793
