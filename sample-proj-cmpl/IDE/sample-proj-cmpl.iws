@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6348362e-2812-408b-a35e-8baed2cd200d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/bld.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/meta.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bbin/pyinstaller_build.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bin/my_app_start.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conf/my_app_settings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/sample_proj_cmpl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/sample_proj_cmpl/app_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/sample_proj_cmpl/dep_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/sample_proj_cmpl/my_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/test_sample_proj_cmpl/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/bin/run_this.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/bin/run_this.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/dep_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/dep_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602776221170</updated>
       <workItem from="1602776222286" duration="2194000" />
-      <workItem from="1602781587723" duration="11736000" />
+      <workItem from="1602781587723" duration="12104000" />
     </task>
     <servers />
   </component>
@@ -165,22 +144,22 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="759" y="297" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602782040704" />
-    <state width="1901" height="237" key="GridCell.Tab.0.bottom" timestamp="1602785998861">
+    <state width="1901" height="237" key="GridCell.Tab.0.bottom" timestamp="1602795669049">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1901" height="237" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602785998861" />
-    <state width="1901" height="237" key="GridCell.Tab.0.center" timestamp="1602785998861">
+    <state width="1901" height="237" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602795669049" />
+    <state width="1901" height="237" key="GridCell.Tab.0.center" timestamp="1602795669049">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1901" height="237" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602785998861" />
-    <state width="1901" height="237" key="GridCell.Tab.0.left" timestamp="1602785998861">
+    <state width="1901" height="237" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602795669049" />
+    <state width="1901" height="237" key="GridCell.Tab.0.left" timestamp="1602795669049">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1901" height="237" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602785998861" />
-    <state width="1901" height="237" key="GridCell.Tab.0.right" timestamp="1602785998861">
+    <state width="1901" height="237" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602795669049" />
+    <state width="1901" height="237" key="GridCell.Tab.0.right" timestamp="1602795669049">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1901" height="237" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602785998861" />
+    <state width="1901" height="237" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602795669049" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sample_proj_cmpl$my_app.coverage" NAME="my_app Coverage Results" MODIFIED="1602784014849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
