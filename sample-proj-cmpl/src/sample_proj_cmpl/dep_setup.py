@@ -6,19 +6,25 @@ from pypigeonhole_build.dependency import Dependency, INSTALL, DEV, PIP
 import pypigeonhole_build.conda_translator as conda_translator
 from pypigeonhole_build.conda_translator import CONDA
 
-import sample_proj_lib.app_setup as app_setup
+import sample_proj_cmpl.app_setup as app_setup
 
 # ##############################################################################
 # These are application specific information
 # ##############################################################################
-__python_version = 'py390'  # take 3 digits, major, minor, patch
+python_version = 'py390'  # take 3 digits, major, minor, patch
 
-CONDA.env = __python_version + '_' + app_setup.get_top_pkg()
+# follow same style, 3 digits, major, minor, patch
+# release script is looking for this pattern: app_version =
+# so don't use this pattern else where. we should have 2 assignment anyway.
+app_version = "0.1.0"
+
+CONDA.env = python_version + '_' + app_setup.get_top_pkg()
 CONDA.channels = ['defaults', 'psilons']  # update channels, if needed.
 
 dependent_libs = [
     # your dependencies here
     Dependency(name='psutil', scope=INSTALL),  # Default PIP, latest version
+    Dependency(name='pyinstaller', installer=CONDA),  # need this to compile Python code to binary.
     Dependency(name='pypigeonhole-build', installer=CONDA),  # default scope DEV, latest version
 
     # development platform
@@ -51,8 +57,10 @@ if __name__ == "__main__":
 
     if sys.argv[1] == 'pip':
         pip_translator.gen_req_txt(dependent_libs, 'requirements.txt')
+        print('file generated!')
     elif sys.argv[1] == 'conda':
         conda_translator.gen_conda_yaml(dependent_libs, 'environment.yml')
+        print('file generated!')
     elif sys.argv[1] == 'conda_env':
         print(CONDA.env)
     else:

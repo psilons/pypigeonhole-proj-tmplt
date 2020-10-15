@@ -1,0 +1,20 @@
+name: py390_sample_proj_cmpl
+
+channels:
+    - defaults
+    - psilons
+
+dependencies:
+    - pyinstaller
+    - pypigeonhole-build
+    - python>=3.6
+    - pip
+    - coverage==5.3
+    - conda-build
+    - conda-verify
+    - anaconda-client
+    - pip:
+        - psutil
+        - pipdeptree
+        - coverage-badge
+        - twine

@@ -1,5 +1,4 @@
 import sys
-import os
 
 import pypigeonhole_build.pip_translator as pip_translator
 from pypigeonhole_build.dependency import Dependency, INSTALL, DEV, PIP

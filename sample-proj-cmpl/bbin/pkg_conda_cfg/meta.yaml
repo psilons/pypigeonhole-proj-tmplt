@@ -1,0 +1,21 @@
+# https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html
+# https://docs.conda.io/projects/conda-build/en/latest/index.html
+{% set data = load_setup_py_data() %}
+{% set name = data.get('name') %}
+{% set version = data.get('version')  %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  path: ../..  # back to the project folder.
+
+build:
+  number: 0
+
+about:
+  home: https://github.com/psilons/pypigeonhole-proj-tmplt
+  license: MIT
+  license_family: MIT
+  summary: a sample for pypigeonhole-build to build an application with scripts

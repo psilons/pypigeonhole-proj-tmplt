@@ -4,3 +4,5 @@ __pycache__
 build
 dist
 dist_conda
+dist_zip
+/sample-proj-cmpl/my_app.spec

@@ -141,3 +141,5 @@ Finally, we clean up all the generated files.
 ```pph_cleanup```
 
 Try to commit again, there should be nothing to commit.
+
+```conda deactivate```
