@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="" />
+    <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-app.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +141,8 @@
       <workItem from="1602541881883" duration="2146000" />
       <workItem from="1602561140338" duration="3532000" />
       <workItem from="1602776294356" duration="3341000" />
-      <workItem from="1602781407976" duration="5750000" />
+      <workItem from="1602781407976" duration="6960000" />
+      <workItem from="1602814249968" duration="1401000" />
     </task>
     <servers />
   </component>
