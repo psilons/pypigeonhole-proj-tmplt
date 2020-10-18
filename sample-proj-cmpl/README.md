@@ -133,8 +133,9 @@ There is a catch when we test this .bz2 file locally, through installation:
 
 After the initial installation, Conda caches this file. Run
 ```conda info``` to find out where the cache location. Delete the cached 
-zip files and folders before installing it again. It would be better to 
-bump the version.
+zip files and folders before installing it again. Python does not have
+the concept of SNAPSHOT in Java. So in development, we either clear the
+cache or bump the version.
 conda clean --all --force-pkgs-dirs is a little too much.
 
 
