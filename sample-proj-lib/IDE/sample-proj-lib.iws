@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-proj-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/sample_proj_lib/sample_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_lib/sample_feature.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +196,7 @@
       <workItem from="1602781893775" duration="16000" />
       <workItem from="1602827547897" duration="17000" />
       <workItem from="1602997582504" duration="818000" />
-      <workItem from="1603005863726" duration="3395000" />
+      <workItem from="1603005863726" duration="3682000" />
     </task>
     <servers />
   </component>
