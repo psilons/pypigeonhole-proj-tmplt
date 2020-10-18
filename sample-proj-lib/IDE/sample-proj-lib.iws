@@ -4,7 +4,11 @@
     <list default="true" id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/sample_proj_lib/sample_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_lib/sample_feature.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +201,7 @@
       <workItem from="1602781893775" duration="16000" />
       <workItem from="1602827547897" duration="17000" />
       <workItem from="1602997582504" duration="818000" />
+      <workItem from="1603005863726" duration="3395000" />
     </task>
     <servers />
   </component>
@@ -204,15 +209,16 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2598" y="172" width="1248" height="851" key="#Project_Structure" timestamp="1602482581377">
+    <state x="2598" y="172" width="1248" height="851" key="#Project_Structure" timestamp="1603048378171">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="503" y="172" width="1248" height="851" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602478146121" />
-    <state x="2598" y="172" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602482581377" />
-    <state x="766" y="342" key="FileChooserDialogImpl" timestamp="1602478144492">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="2598" y="172" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603048378171" />
+    <state x="2853" y="342" key="FileChooserDialogImpl" timestamp="1603048310474">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="766" y="342" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602478144492" />
+    <state x="2853" y="342" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603048310474" />
     <state width="1689" height="125" key="GridCell.Tab.0.bottom" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>

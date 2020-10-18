@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-app.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/sample_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/sample_feature.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +148,7 @@
       <workItem from="1602776294356" duration="3341000" />
       <workItem from="1602781407976" duration="6960000" />
       <workItem from="1602814249968" duration="1401000" />
+      <workItem from="1603005484703" duration="977000" />
     </task>
     <servers />
   </component>
