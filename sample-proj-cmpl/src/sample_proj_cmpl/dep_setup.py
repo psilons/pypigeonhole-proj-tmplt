@@ -6,17 +6,12 @@ from pypigeonhole_build.dependency import Dependency, INSTALL, DEV, PIP
 import pypigeonhole_build.conda_translator as conda_translator
 from pypigeonhole_build.conda_translator import CONDA
 
-import sample_proj_cmpl.app_setup as app_setup
-
 # ##############################################################################
 # These are application specific information
 # ##############################################################################
-python_version = 'py390'  # take 3 digits, major, minor, patch
+import sample_proj_cmpl.app_setup as app_setup
 
-# follow same style, 3 digits, major, minor, patch
-# release script is looking for this pattern: app_version =
-# so don't use this pattern else where. we should have 2 assignment anyway.
-app_version = "0.1.0"
+python_version = 'py390'  # take 3 digits, major, minor, patch
 
 CONDA.env = python_version + '_' + app_setup.get_top_pkg()
 CONDA.channels = ['defaults', 'psilons']  # update channels, if needed.

@@ -2,7 +2,7 @@ import os
 
 import pypigeonhole_build.app_version_control as vc
 
-# keep this line unique.
+# 3 digits, major, minor, patch. Keep this line unique.
 __app_version = "0.1.0"
 
 # overwrite default version bumping in app_version_control.bump_version

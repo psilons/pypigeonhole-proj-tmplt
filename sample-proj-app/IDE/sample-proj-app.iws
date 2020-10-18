@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/test/test_sample_proj_cmpl/test_my_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-app.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/bld.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/bld.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/sample_proj_app/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_app/app_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/sample_proj_app/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_app/dep_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/bbin/pkg_conda_cfg/bld.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/bbin/pkg_conda_cfg/bld.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/bbin/pkg_conda_cfg/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/bbin/pkg_conda_cfg/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/dep_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/dep_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +154,8 @@
       <workItem from="1602776294356" duration="3341000" />
       <workItem from="1602781407976" duration="6960000" />
       <workItem from="1602814249968" duration="1401000" />
-      <workItem from="1603005484703" duration="2622000" />
+      <workItem from="1603005484703" duration="2971000" />
+      <workItem from="1603052796560" duration="3078000" />
     </task>
     <servers />
   </component>

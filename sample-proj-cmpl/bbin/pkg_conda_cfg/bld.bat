@@ -2,13 +2,9 @@ echo %cd%
 
 ls -ltr
 ls -ltr %SRC_DIR%
-ls -ltr "%SCRIPTS%"
+ls -ltr "%PREFIX%"
 
-mkdir "%SCRIPTS%"
-ls -ltr %PREFIX%
-
-REM don't work on directories, not working. Use existing directories.
-
-xcopy %SRC_DIR%\bin "%SCRIPTS%"
-xcopy %SRC_DIR%\conf "%SCRIPTS%"
-xcopy %SRC_DIR%\dist "%SCRIPTS%"
+echo copying scripts to %PREFIX%...
+xcopy %SRC_DIR%\bin "%PREFIX%"
+xcopy %SRC_DIR%\conf "%PREFIX%"
+xcopy %SRC_DIR%\dist "%PREFIX%"

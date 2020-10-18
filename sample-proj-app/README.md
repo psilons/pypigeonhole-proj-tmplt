@@ -1,4 +1,4 @@
-This is a sample for pypigeonhole-build to build a reusable lib.
+This is a sample for pypigeonhole-build to build an application.
 
 ## Python Project Setup
 
@@ -15,9 +15,9 @@ Under there, create the following:
 - src folder: for python code
 - create top package under src, it should be the project folder name 
   with _ instead of - . In this case, it's sample_proj_app.
-- test folder: for python test code
+- test folder: for python test code.
 - create top package under test, it should be ```test_<top package in src>```.
-  In this case, it's test_sample_proj_app
+  In this case, it's test_sample_proj_app.
 - a blank README.md file that we could fill in later.
 - setup.py: copy from pypigeonhole-build\src\pypigeonhole_build\dep_setup.py 
   to the top package in src, we will modify it later.
@@ -111,8 +111,8 @@ dist_conda\noarch\sample-proj-app-0.1.0-pyt_0.tar.bz2
 
 Now if we are on windows and run 
 ```conda info --envs``` or ```conda env list```, 
-we can see that conda environments are mislabeled now. So close this window
-and open a new window. Activate the environment again.
+we may see that conda environments are mislabeled now. If this is the case,
+close this window and open a new window. Activate the environment again.
 
 
 ## Local Testing   
@@ -164,6 +164,8 @@ To check whether it's in the config:
 Now check in all changes, and run
 
 ```pph_release```
+
+This requires one project per GIT repo, otherwise we have version conflicts.
 
 Finally, we clean up all the generated files.
 

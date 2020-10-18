@@ -2,17 +2,8 @@ import os
 
 import pypigeonhole_build.app_version_control as vc
 
-# ##############################################################################
-# This file is used by setup.py for users and the release script for version
-# tagging and increment. These code are *not* reusable.
-# ##############################################################################
-
-# follow same style, 3 digits, major, minor, patch
-# release script is looking for this string pattern to replace.
-# so don't use this pattern else where. we should not have 2 assignment
-# anyway. Moving this to a text is better, but code is always
-# first choice.
-__app_version = "0.1.1"
+# 3 digits, major, minor, patch. Keep this line unique.
+__app_version = "0.1.2"
 
 # overwrite default version bumping in app_version_control.bump_version
 vc.bump_version = vc.bump_version_upto10
