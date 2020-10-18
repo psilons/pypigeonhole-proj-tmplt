@@ -84,7 +84,7 @@ step.
 
 If all goes well, it's time to package our code and ship it out. Run 
 
-```pphsdlc package pip 2>&1 | tee b.log``` 
+```pphsdlc package pip``` 
 
 this generates a few things:
 - sample_proj_lib.egg-info under src, this is package info.
@@ -99,15 +99,16 @@ files. Please read conda-build docs for more details.
 
 Now run 
 
-```pphsdlc package conda 2>&1 | tee c.log```
+```pphsdlc package conda 2>&1 | tee b.log```
 
-It generates output in dist_conda folder under project. We care the file 
+It generates output in dist_conda folder under project. The artifact is  
 dist_conda\noarch\sample-proj-lib-0.1.0-pyt_0.tar.bz2
 
 Now if we are on windows and run 
 ```conda info --envs``` or ```conda env list```, 
 we can see that conda environments are mislabeled now. So close this window
 and open a new window. Activate the environment again.
+
 
 ## Local Testing
 

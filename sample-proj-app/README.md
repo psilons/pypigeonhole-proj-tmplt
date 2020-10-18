@@ -1,10 +1,11 @@
 This is a sample for pypigeonhole-build to build a reusable lib.
 
-## Python Environment Setup
+## Python Project Setup
 
 Install miniconda, if needed, from https://docs.conda.io/en/latest/miniconda.html
 
-We need to install this package in order to use its scripts.
+Install this package to the base env in order to use its scripts to create
+other environments
 
 ```conda install -c psilons pypigeonhole-build```
 
@@ -22,6 +23,8 @@ Under there, create the following:
   to the top package in src, we will modify it later.
 - app_setup.py: copy from pypigeonhole-build\src\pypigeonhole_build\app_setup.py 
   to the top package in src, we will modify it later.
+- dep_setup.py: copy from pypigeonhole-build\src\pypigeonhole_build\dep_setup.py 
+  to the top package in src, we will modify it later.
 - ```__init__.py```: copy from pypigeonhole-build\test\pypigeonhole_build\.
   Notice that there is some hook code in this file for unit testing. No need
   to change it.
@@ -34,9 +37,23 @@ Now follow these steps:
 - add psilons to the channels in dep_setup.py 
 - setup.py: modify the import statement to point to sample_proj_app.
 
+
+## Conda Environment Setup
+
+The interface script ```pphsdlc.sh``` or ```pphsdlc.bat``` has the
+following options (run the script without parameter):
+
+  - setup: create conda environment specified in dep_setup.py
+  - test: run unit tests and collect coverage
+  - package: package artifact with pip | conda | zip
+  - upload: upload to pip | piptest | conda
+  - release: tag the current version in git and then bump the version
+  - cleanup: cleanup intermediate results in filesystem
+  - help or without parameter: this menu
+  
 Now let's open a command window, and go to the project folder. Run 
 
-```pph_dev_env_setup 2>&1 | tee a.log```
+```pphsdlc setup 2>&1 | tee a.log```
 
 to create the conda environment with the name ```py390_sample_proj_app``` 
 specified in the dep_setup.py.
@@ -47,6 +64,7 @@ Run ```conda activate py390_sample_proj_app```
 
 If needed, run ```conda clean -a``` to clear conda cache (from time to time).
 
+
 ## Coding and Testing
 Back to IDE and change the setting to use this new environment.
 
@@ -56,17 +74,18 @@ in the file.
 
 In the test folder, write some test case. Make sure it works in the IDE, and
 it gets proper test coverage. 
-Run ```pph_unittest```, this generates .coverage and a badge coverage.svg.
+Run ```pphsdlc test```, this generates .coverage and a badge coverage.svg.
 
 In the project folder, ```pip install -e .``` creates a soft link in the
-python environment, if needed during cross development.
+python environment, if needed during cross development. Otherwise, skip this
+step.
 
 
 ## Package
 
 If all goes well, it's time to package our code and ship it out. Run 
 
-```pph_package_pip 2>&1 | tee b.log```
+```pphsdlc package pip``` 
 
 This generates a few things:
 - sample_proj_app.egg-info under src, this is package info.
@@ -80,20 +99,20 @@ are 3 files here, meta.yaml, bld.bat, and build.sh. conda-build calls these
 files. Please read conda-build docs for more details.
 
 This is an app with a bin\run_this.bat file and a conf\settings.txt, we 
-need to copy these files to the %SCRIPTS% folder in the 
-bbin\pkg_conda_cfg\bld.bat .
+need to copy these files to the %PREFIX% folder in the 
+bbin\pkg_conda_cfg\bld.bat or build.sh.
 
 Now run 
 
-```pph_package_conda 2>&1 | tee c.log```
+```pphsdlc package conda 2>&1 | tee b.log```
 
-It generates output in dist_conda folder under project. We care the file 
+It generates output in dist_conda folder under project. The artifact is 
 dist_conda\noarch\sample-proj-app-0.1.0-pyt_0.tar.bz2
 
-Make sure conda is clean after build. conda-build corrupts conda environments,
-and so run it outside.
-
-```conda info --envs```
+Now if we are on windows and run 
+```conda info --envs``` or ```conda env list```, 
+we can see that conda environments are mislabeled now. So close this window
+and open a new window. Activate the environment again.
 
 
 ## Local Testing   
@@ -101,30 +120,31 @@ and so run it outside.
 To test pip package:
 - pip uninstall sample-proj-app -y
 - pip install dist\sample-proj-app-0.1.0.tar.gz
-- python -c "import sample_proj_app.dep_setup as ds; print(ds.app_version)"
+- python -c "import sample_proj_app.app_setup as ds; print(ds.get_app_version())"
 - check ```<env>\Lib\site-packages\sample_proj_app``` for files
 - pip uninstall sample-proj-app -y
 - pip install dist\sample_proj_app-0.1.0-py3-none-any.whl
-- python -c "import sample_proj_app.dep_setup as ds; print(ds.app_version)"
+- python -c "import sample_proj_app.app_setup as ds; print(ds.get_app_version())"
 - check ```<env>\Lib\site-packages\sample_proj_app``` for files
 - pip uninstall sample-proj-app -y
 
 To test conda package:
 - conda remove sample-proj-app -y
 - conda install dist_conda\noarch\sample-proj-app-0.1.0-py_0.tar.bz2
-- python -c "import sample_proj_app.dep_setup as ds; print(ds.app_version)"
+- python -c "import sample_proj_app.app_setup as ds; print(ds.get_app_version())"
 - check ```<env>\Lib\site-packages\sample_proj_app``` for files
-- ```<Anaconda root>\envs\py390_sample_proj_app\Scripts\run_this.bat```
+- Now we can run```run_this.bat``` directly, because it's installed to 
+  <Anaconda root>\envs\py390_sample_proj_app. This is the way to deploy applications.
 - conda remove sample-proj-app -y
 
 
 ## Upload and Testing   
 
-```pph_upload_pip```
+```pphsdlc upload pip```
 
-```pph_upload_pip_test```
+```pphsdlc upload piptest```
 
-```pph_upload_conda dist_conda\noarch\sample-proj-app-0.1.0-py_0.tar.bz2```
+```pphsdlc upload conda dist_conda\noarch\sample-proj-app-0.1.0-py_0.tar.bz2```
 
 To test: same process as before, except we install from central server:
 
@@ -141,7 +161,7 @@ To check whether it's in the config:
 
 ## Release and Cleanup
 
-Now check all changes, and run
+Now check in all changes, and run
 
 ```pph_release```
 

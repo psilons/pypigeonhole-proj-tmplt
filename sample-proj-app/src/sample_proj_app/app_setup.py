@@ -2,16 +2,7 @@ import os
 
 import pypigeonhole_build.app_version_control as vc
 
-# ##############################################################################
-# This file is used by setup.py for users and the release script for version
-# tagging and increment. These code are *not* reusable.
-# ##############################################################################
-
-# follow same style, 3 digits, major, minor, patch
-# release script is looking for this string pattern to replace.
-# so don't use this pattern else where. we should not have 2 assignment
-# anyway. Moving this to a text is better, but code is always
-# first choice.
+# keep this line unique.
 __app_version = "0.1.0"
 
 # overwrite default version bumping in app_version_control.bump_version
@@ -25,12 +16,10 @@ def get_app_version():  # used by setup.py
     return __app_version
 
 
-# may overwrite these 2 methods, e.g., return constant strings
 def get_top_pkg():  # part of conda environment name
     # assume this file's folder is the top package
     # do not go outside of src, since project content is copied to a "work"
     # location during conda packaging, so project folder is not stable.
-    # This is not reusable.
     curr_dir = os.path.dirname(os.path.realpath(__file__))
     top_pkg = os.path.basename(curr_dir)
     return top_pkg
