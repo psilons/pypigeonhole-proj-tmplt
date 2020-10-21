@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/test/test_sample_proj_cmpl/test_my_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/app_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/bbin/pkg_conda_cfg/bld.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/bbin/pkg_conda_cfg/bld.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/bbin/pkg_conda_cfg/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/bbin/pkg_conda_cfg/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/app_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/dep_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,6 +197,7 @@
       <workItem from="1602997582504" duration="818000" />
       <workItem from="1603005863726" duration="3754000" />
       <workItem from="1603050714507" duration="4134000" />
+      <workItem from="1603168913294" duration="5503000" />
     </task>
     <servers />
   </component>
@@ -266,6 +255,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="356" y="238" width="1549" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602402589385" />
+    <state x="2784" y="303" width="717" height="534" key="find.popup" timestamp="1603178175122">
+      <screen x="2110" y="0" width="1986" height="1152" />
+    </state>
+    <state x="2784" y="303" width="717" height="534" key="find.popup/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603178175122" />
     <state x="513" y="235" key="new project wizard" timestamp="1602403681683">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
