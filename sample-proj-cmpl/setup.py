@@ -4,6 +4,8 @@ import sys
 import os.path
 from os.path import dirname
 
+import sample_proj_cmpl.app_setup as app_setup
+
 # To add source folder to the path, otherwise below import would fail.
 src_path = os.path.join(dirname(__file__), 'src')
 sys.path.append(src_path)
@@ -11,14 +13,11 @@ sys.path.append(src_path)
 HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
-from sample_proj_cmpl import app_setup
-from sample_proj_cmpl import dep_setup
-
 # If this is needed during dev by others, cd this folder and run pip install -e .
 # This is reusable in normal cases.
-setup(name=app_setup.get_app_name(),  # 'sample-proj-app',
-      version=app_setup.get_app_version(),  # major.minor.patch
-      description='Python build sample project for libs',
+setup(name=app_setup.app_name(),
+      version=app_setup.app_version(),
+      description='Python build sample project for PyInstaller',
       url='https://github.com/psilons/pypigeonhole-proj-tmplt.git',
 
       author='psilons',
@@ -31,11 +30,11 @@ setup(name=app_setup.get_app_name(),  # 'sample-proj-app',
       package_dir={'': 'src'},
       packages=find_packages("src", exclude=["test"]),
 
-      python_requires=dep_setup.python_required if dep_setup.python_required else '>=3',
+      python_requires=app_setup.python_required if app_setup.python_required else '>=3',
 
-      install_requires=dep_setup.install_required,
+      install_requires=app_setup.install_required,
 
-      tests_require=dep_setup.test_required,
+      tests_require=app_setup.test_required,
 
       extras_require={},
       )

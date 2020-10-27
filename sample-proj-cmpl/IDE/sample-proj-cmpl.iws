@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6348362e-2812-408b-a35e-8baed2cd200d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../test/test_sample_proj_cmpl/test_my_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-lib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-lib.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-lib.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-cmpl.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-cmpl.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/bld.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/bld.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/sample_proj_cmpl/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_cmpl/app_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/sample_proj_cmpl/dep_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_cmpl/dep_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test_sample_proj_cmpl/test_app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_sample_proj_cmpl/test_app_setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/test_sample_proj_cmpl" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -59,11 +55,12 @@
     <property name="project.structure.side.proportion" value="0.34367815" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-cmpl\test\test_sample_proj_cmpl" />
+      <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-cmpl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-cmpl\bbin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-cmpl" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Unittests for test_my_app.TestSampleFeature.test_scan_cpu">
@@ -155,6 +152,7 @@
       <workItem from="1602781587723" duration="12104000" />
       <workItem from="1602827575712" duration="24000" />
       <workItem from="1603052714052" duration="4920000" />
+      <workItem from="1603816620815" duration="1515000" />
     </task>
     <servers />
   </component>
@@ -170,6 +168,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="447" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602782069132" />
+    <state x="1251" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603817949772">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1251" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603817949772" />
     <state x="759" y="297" key="FileChooserDialogImpl" timestamp="1602782040704">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -194,6 +196,10 @@
     </state>
     <state width="1901" height="237" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602795669049" />
     <state width="1607" height="223" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603058186426" />
+    <state x="0" y="115" width="1254" height="947" key="dock-window-1" timestamp="1603818240889">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="0" y="115" width="1254" height="947" key="dock-window-1/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603818240889" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sample_proj_cmpl$my_app.coverage" NAME="my_app Coverage Results" MODIFIED="1602784014849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />

@@ -1,11 +1,11 @@
 import unittest
 
-import sample_proj_app.app_setup as app_setup
+import sample_proj_cmpl.app_setup as app_setup
 
 
 class AppSetupTest(unittest.TestCase):
     def test_get_app_name(self):
-        self.assertTrue(app_setup.app_name() == 'sample-proj-app')
+        self.assertTrue(app_setup.app_name() == 'sample-proj-cmpl')
 
     def test_get_app_version(self):
         self.assertTrue(app_setup.app_version() is not None)

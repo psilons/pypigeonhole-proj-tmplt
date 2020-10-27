@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../test/test_sample_proj_app/test_app_setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/test/test_sample_proj_cmpl/test_app_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-app.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../coverage.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-lib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-lib.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-lib.iws" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/sample_proj_app/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_app/app_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/sample_proj_app/dep_setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/dep_setup.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +155,7 @@
       <workItem from="1602814249968" duration="1401000" />
       <workItem from="1603005484703" duration="2971000" />
       <workItem from="1603052796560" duration="3078000" />
-      <workItem from="1603814743789" duration="1533000" />
+      <workItem from="1603814743789" duration="3206000" />
     </task>
     <servers />
   </component>

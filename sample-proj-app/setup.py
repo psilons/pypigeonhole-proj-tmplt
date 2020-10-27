@@ -16,7 +16,7 @@ README = (HERE / "README.md").read_text()
 # If this is needed during dev by others, cd this folder and run pip install -e .
 # This is reusable in normal cases.
 setup(name=app_setup.app_name(),
-      version=app_setup.app_version(),  # major.minor.patch
+      version=app_setup.app_version(),
       description='Python build sample project for libs',
       url='https://github.com/psilons/pypigeonhole-proj-tmplt.git',
 
