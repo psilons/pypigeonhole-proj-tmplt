@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202b4744-7d27-4b06-a89f-10810dec9331" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../test/test_sample_proj_lib/test_app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-lib.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-lib.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../coverage.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_lib/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/sample_proj_lib/dep_setup.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../src/sample_proj_lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/test_sample_proj_lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -48,11 +56,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-lib\test\test_sample_proj_lib" />
       <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-lib\src\sample_proj_lib" />
       <recent name="D:\00dev\python\projects\pypigeonhole-proj-tmplt\sample-proj-lib\bbin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dep_setup">
+  <component name="RunManager" selected="Python tests.Unittests in test_sample_proj_lib">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -169,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dep_setup" />
         <item itemvalue="Python tests.Unittests in test_sample_proj_lib" />
+        <item itemvalue="Python.dep_setup" />
         <item itemvalue="Python tests.Unittests in test_sample_feature.py" />
         <item itemvalue="Python tests.Unittests in test" />
         <item itemvalue="Python tests.Unittests for test_sample_feature.TestSampleFeature.test_scan_cpu" />
@@ -198,6 +207,7 @@
       <workItem from="1603005863726" duration="3754000" />
       <workItem from="1603050714507" duration="4134000" />
       <workItem from="1603168913294" duration="5503000" />
+      <workItem from="1603783919069" duration="808000" />
     </task>
     <servers />
   </component>
@@ -205,36 +215,40 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2598" y="172" width="1248" height="851" key="#Project_Structure" timestamp="1603048378171">
+    <state x="2598" y="172" width="1248" height="851" key="#Project_Structure" timestamp="1603784682443">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="503" y="172" width="1248" height="851" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602478146121" />
-    <state x="2598" y="172" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603048378171" />
-    <state x="2853" y="342" key="FileChooserDialogImpl" timestamp="1603048310474">
+    <state x="2598" y="172" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603784682443" />
+    <state x="2804" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603784071318">
+      <screen x="2110" y="0" width="1986" height="1152" />
+    </state>
+    <state x="2804" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603784071318" />
+    <state x="2853" y="342" key="FileChooserDialogImpl" timestamp="1603784618485">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="766" y="342" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602478144492" />
-    <state x="2853" y="342" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603048310474" />
-    <state width="1689" height="125" key="GridCell.Tab.0.bottom" timestamp="1602486245741">
+    <state x="2853" y="342" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603784618485" />
+    <state width="1689" height="242" key="GridCell.Tab.0.bottom" timestamp="1603784718127">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state width="1689" height="225" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
-    <state width="1689" height="125" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
-    <state width="1689" height="125" key="GridCell.Tab.0.center" timestamp="1602486245741">
+    <state width="1689" height="242" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603784718127" />
+    <state width="1689" height="242" key="GridCell.Tab.0.center" timestamp="1603784718127">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state width="1689" height="225" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
-    <state width="1689" height="125" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
-    <state width="1689" height="125" key="GridCell.Tab.0.left" timestamp="1602486245741">
+    <state width="1689" height="242" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603784718127" />
+    <state width="1689" height="242" key="GridCell.Tab.0.left" timestamp="1603784718127">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state width="1689" height="225" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
-    <state width="1689" height="125" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
-    <state width="1689" height="125" key="GridCell.Tab.0.right" timestamp="1602486245741">
+    <state width="1689" height="242" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603784718127" />
+    <state width="1689" height="242" key="GridCell.Tab.0.right" timestamp="1603784718127">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state width="1689" height="225" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602400903337" />
-    <state width="1689" height="125" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602486245741" />
+    <state width="1689" height="242" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603784718127" />
     <state width="1689" height="125" key="GridCell.Tab.1.bottom" timestamp="1602486245741">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
@@ -255,6 +269,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="356" y="238" width="1549" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602402589385" />
+    <state x="709" y="17" width="1355" height="1013" key="dock-window-1" timestamp="1603784264983">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="709" y="17" width="1355" height="1013" key="dock-window-1/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1603784264983" />
     <state x="2784" y="303" width="717" height="534" key="find.popup" timestamp="1603178175122">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
@@ -266,7 +284,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sample_proj_lib$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1602385175423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
-    <SUITE FILE_PATH="coverage/sample_proj_lib$Unittests_in_test_sample_proj_lib.coverage" NAME="Unittests in test_sample_proj_lib Coverage Results" MODIFIED="1602385237730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_sample_proj_lib" />
+    <SUITE FILE_PATH="coverage/sample_proj_lib$Unittests_in_test_sample_proj_lib.coverage" NAME="Unittests in test_sample_proj_lib Coverage Results" MODIFIED="1603784718101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_sample_proj_lib" />
     <SUITE FILE_PATH="coverage/sample_proj_lib$Unittests_for_test_sample_feature_TestSampleFeature_test_scan_cpu.coverage" NAME="Unittests for test_sample_feature.TestSampleFeature.test_scan_cpu Coverage Results" MODIFIED="1602379811098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_sample_proj_lib" />
     <SUITE FILE_PATH="coverage/sample_proj_lib$dep_setup.coverage" NAME="dep_setup Coverage Results" MODIFIED="1602481492911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/sample_proj_lib" />
     <SUITE FILE_PATH="coverage/sample_proj_lib$sample_feature.coverage" NAME="sample_feature Coverage Results" MODIFIED="1602379549688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/sample_proj_lib" />

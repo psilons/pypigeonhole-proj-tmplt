@@ -1,4 +1,4 @@
-name: py390_sample_proj_lib
+name: py385_sample_proj_lib
 
 channels:
     - defaults

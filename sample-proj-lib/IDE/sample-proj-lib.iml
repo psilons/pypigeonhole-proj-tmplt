@@ -11,7 +11,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../dist_conda" />
       <excludeFolder url="file://$MODULE_DIR$/../src/sample_proj_lib.egg-info" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8 (py390_sample_proj_lib)" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -22,7 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/sample-proj-lib.iml" filepath="$PROJECT_DIR$/sample-proj-lib.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" project-jdk-name="Python 3.8 (py390_sample_proj_lib)" project-jdk-type="Python SDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" project-jdk-name="Python 3.8 (py385_sample_proj_lib)" project-jdk-type="Python SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
