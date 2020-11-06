@@ -23,18 +23,16 @@ Under there, create the following:
   to the top package in src, we will modify it later.
 - app_setup.py: copy from pypigeonhole-build\src\pypigeonhole_build\app_setup.py 
   to the top package in src, we will modify it later.
-- dep_setup.py: copy from pypigeonhole-build\src\pypigeonhole_build\dep_setup.py 
-  to the top package in src, we will modify it later.
 - ```__init__.py```: copy from pypigeonhole-build\test\pypigeonhole_build\.
   Notice that there is some hook code in this file for unit testing. No need
   to change it.
   
 Now follow these steps:
 - change __app_version to 0.1.0 in app_setup.py
-- add 2 dependencies to dependent_libs in dep_setup.py:  
+- add 2 dependencies to dependent_libs in app_setup.py:  
     ```Dependency(name='psutil', scope=INSTALL),```     
     ```Dependency(name='pypigeonhole-build', installer=CONDA),```
-- add psilons to the channels in dep_setup.py 
+- add psilons to the channels in app_setup.py 
 - setup.py: modify the import statement to point to sample_proj_app.
 
 
@@ -55,12 +53,12 @@ Now let's open a command window, and go to the project folder. Run
 
 ```pphsdlc setup 2>&1 | tee a.log```
 
-to create the conda environment with the name ```py390_sample_proj_app``` 
-specified in the dep_setup.py.
+to create the conda environment with the name ```sample_proj_app``` 
+specified in the app_setup.py.
 
 This step also creates requirements.txt and environment.yml. After it's down,
 run ```conda info --envs``` to check the new environment is in the right path.
-Run ```conda activate py390_sample_proj_app```
+Run ```conda activate sample_proj_app```
 
 If needed, run ```conda clean -a``` to clear conda cache (from time to time).
 
@@ -102,7 +100,8 @@ This is an app with a bin\run_this.bat file and a conf\settings.txt, we
 need to copy these files to the %PREFIX% folder in the 
 bbin\pkg_conda_cfg\bld.bat or build.sh.
 
-Now run 
+Now open a new window and go to the project folder, **do not activate
+environment**. Run 
 
 ```pphsdlc package conda 2>&1 | tee b.log```
 
@@ -110,8 +109,9 @@ It generates output in dist_conda folder under project. The artifact is
 dist_conda\noarch\sample-proj-app-0.1.0-pyt_0.tar.bz2
 
 Now if we are on windows and run 
-```conda info --envs``` or ```conda env list```, 
-we may see that conda environments are mislabeled now. If this is the case,
+```conda info --envs``` or ```conda env list```,
+if we activated the conda environment, we may see that conda environments 
+are mislabeled now. If this is the case,
 close this window and open a new window. Activate the environment again.
 
 

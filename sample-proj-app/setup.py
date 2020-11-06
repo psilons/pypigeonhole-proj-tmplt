@@ -4,11 +4,11 @@ import sys
 import os.path
 from os.path import dirname
 
-import sample_proj_app.app_setup as app_setup
-
 # To add source folder to the path, otherwise below import would fail.
 src_path = os.path.join(dirname(__file__), 'src')
 sys.path.append(src_path)
+
+import sample_proj_app.app_setup as app_setup
 
 HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()

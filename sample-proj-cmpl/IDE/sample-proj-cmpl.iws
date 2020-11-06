@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6348362e-2812-408b-a35e-8baed2cd200d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-app.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-lib.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-lib.ipr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/IDE/sample-proj-lib.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/bbin/pkg_conda_cfg/bld.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/bbin/pkg_conda_cfg/bld.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/coverage.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/environment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sample-proj-app/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-app/src/sample_proj_app/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-proj-cmpl.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-cmpl.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample-proj-cmpl.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-cmpl.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../coverage.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_sample_proj_cmpl/test_app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_sample_proj_cmpl/test_app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/sample_proj_cmpl/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_cmpl/app_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +65,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34367815" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -153,6 +166,7 @@
       <workItem from="1602827575712" duration="24000" />
       <workItem from="1603052714052" duration="4920000" />
       <workItem from="1603816620815" duration="1515000" />
+      <workItem from="1604695331980" duration="1672000" />
     </task>
     <servers />
   </component>

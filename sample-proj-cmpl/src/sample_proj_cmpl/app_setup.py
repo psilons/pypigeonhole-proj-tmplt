@@ -8,8 +8,7 @@ import pypigeonhole_build.app_version_control as vc
 import pypigeonhole_build.dep_manager as dep_manager
 
 curr_dir = os.path.dirname(os.path.realpath(__file__))
-proj_dir = os.path.dirname(os.path.dirname(curr_dir))  # skip top package and src
-__app_name = os.path.basename(proj_dir)
+__app_name = os.path.basename(curr_dir).replace('_', '-')
 
 # ##############################################################################
 # These are the settings for the app.
@@ -19,10 +18,8 @@ __app_version = "0.2.1"
 # overwrite default version bumping in app_version_control.bump_version
 vc.bump_version = vc.bump_version_upto10
 
-__python_version = 'py385'  # take 3 digits, major, minor, patch
-
 top_pkg = __app_name.replace('-', '_')
-CONDA.env = __python_version + '_' + top_pkg  # _ is easier to copy the word
+CONDA.env = top_pkg  # _ is easier to copy the word
 CONDA.channels = ['defaults', 'psilons']  # update channels, if needed.
 
 dependent_libs = [

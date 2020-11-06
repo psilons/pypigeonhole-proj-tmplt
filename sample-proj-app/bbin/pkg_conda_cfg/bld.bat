@@ -10,4 +10,4 @@ xcopy %SRC_DIR%\conf "%PREFIX%"
 
 ls -ltr %PREFIX%
 
-%PYTHON% -m pip install .
+%PYTHON% -m pip install . --ignore-installed -vv
