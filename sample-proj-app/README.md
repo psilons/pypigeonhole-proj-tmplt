@@ -174,3 +174,6 @@ Finally, we clean up all the generated files.
 Try to commit again, there should be nothing to commit.
 
 ```conda deactivate```
+
+There is one problem - conda package does not preserve file permissions during copying.
+So we have to trigger another step to fix the file permissions for .bat and .sh
