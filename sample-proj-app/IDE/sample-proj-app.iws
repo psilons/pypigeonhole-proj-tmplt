@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sample-proj-app.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-app.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-proj-app.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sample-proj-app.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/bld.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bbin/pkg_conda_cfg/bld.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../coverage.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/sample_proj_app/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/sample_proj_app/app_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/IDE/sample-proj-cmpl.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/coverage.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-cmpl/src/sample_proj_cmpl/app_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/IDE/sample-proj-lib.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sample-proj-lib/src/sample_proj_lib/app_setup.py" afterDir="false" />
-    </list>
+    <list default="true" id="75adf708-8757-4005-be85-3c39b596cfb4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -39,6 +20,9 @@
         <option name="mavenHome" value="C:\Users\Wonderland\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.6397.94\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1iiwNeCE4uzfj0gZ2eNoJhLAs2X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -170,6 +154,7 @@
       <workItem from="1604694939566" duration="383000" />
       <workItem from="1604696533754" duration="218000" />
       <workItem from="1604697195548" duration="22000" />
+      <workItem from="1633574921002" duration="558000" />
     </task>
     <servers />
   </component>
@@ -219,7 +204,7 @@
     <state x="2110" y="90" width="1414" height="949" key="dock-window-1/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603815371295" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sample_proj_app$sample_feature.coverage" NAME="sample_feature Coverage Results" MODIFIED="1602405911668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/sample_proj_app$Unittests_in_test_sample_proj_app.coverage" NAME="Unittests in test_sample_proj_app Coverage Results" MODIFIED="1602403865599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_sample_proj_app" />
+    <SUITE FILE_PATH="coverage/sample_proj_app$sample_feature.coverage" NAME="sample_feature Coverage Results" MODIFIED="1602405911668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
   </component>
 </project>

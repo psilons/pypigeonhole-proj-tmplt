@@ -1,0 +1,12 @@
+name: py385_cb
+
+channels:
+    - defaults
+
+dependencies:
+    - python=3.8.5
+    - pip
+    - cython
+    - pyinstaller
+    - pip:
+          - pipdeptree # or conda install -c conda-forge pipdeptree
